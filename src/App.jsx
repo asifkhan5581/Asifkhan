@@ -3,7 +3,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import ProjectPage from "./pages/ProjectPage";
-import ProjectDetails from "./componant/project/ProjectDetails";
 import { HashRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
