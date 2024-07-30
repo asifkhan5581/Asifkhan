@@ -1,0 +1,22 @@
+.footer {
+  background-color: #292929;
+  padding: 20px 0;
+  color: white;
+  margin-top: 30px;
+}
+
+.footer .nav-link {
+  color: white;
+}
+
+.footer .nav-link:hover {
+  color: #ccc;
+}
+
+.footer p {
+  color: rgb(137, 137, 137);
+}
+
+.footer .border-bottom {
+  border-color: rgba(255, 255, 255, 0.1);
+}

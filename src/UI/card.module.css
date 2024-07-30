@@ -1,0 +1,38 @@
+.card {
+  text-align: center;
+  margin: 0px;
+  margin-top: 10px;
+  background-color: rgb(13, 13, 13);
+  color: black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgb(46, 46, 46);
+  padding: 20px;
+}
+.card:hover {
+  background-color: rgb(114, 3, 3);
+  color: aliceblue;
+}
+.card h3:hover {
+  color: white;
+}
+.card {
+  cursor: pointer;
+  animation: slideIn 0.5s ease-out;
+  transition: transform 0.3s, border-radius 0.3s;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.card:hover {
+  transform: scale(1.1);
+  border-radius: 50%;
+}

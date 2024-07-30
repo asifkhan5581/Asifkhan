@@ -1,0 +1,148 @@
+.hero {
+  width: 100%;
+  height: 95vh;
+}
+.heroImage {
+  width: 100%;
+  height: 100%;
+}
+.heroImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.hero_icon {
+  position: absolute;
+  top: 80%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  color: rgb(135, 0, 0);
+  z-index: 3;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.arrow_icon {
+  font-size: 40px;
+  color: white;
+  padding: 6px;
+  box-shadow: 2px 2px 2px 1px gray;
+  margin: 10px;
+  background-color: rgb(28, 28, 28);
+  border-radius: 5px;
+}
+.hero_main_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  z-index: 3;
+  /* text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column; */
+}
+.hero_text {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 3px 3px 2px rgb(125, 1, 1);
+  padding: 10px;
+}
+.hero_main_text p {
+  font-size: 20px;
+  padding: 10px;
+  text-shadow: 1px 1px 10px black;
+}
+.hero_main_text h4 {
+  font-size: 18px;
+  color: white;
+  margin: 10px;
+  letter-spacing: 3px;
+}
+.hero_main_text h4 span {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 3px 3px 2px rgb(125, 1, 1);
+}
+.hero_button {
+  display: flex;
+  margin-left: 10px;
+}
+@media (max-width: 1200px) {
+  .hero_text {
+    font-size: 35px;
+  }
+
+  .hero_main_text p {
+    font-size: 18px;
+  }
+
+  .hero_icon {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero_text {
+    font-size: 30px;
+  }
+
+  .hero_main_text p {
+    font-size: 16px;
+  }
+
+  .hero_icon {
+    font-size: 20px;
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 80vh;
+  }
+
+  .hero_text {
+    font-size: 25px;
+  }
+
+  .hero_main_text p {
+    font-size: 14px;
+  }
+
+  .hero_icon {
+    top: 75%;
+    left: 85%;
+    font-size: 18px;
+    display: flex;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    height: 70vh;
+  }
+
+  .hero_text {
+    font-size: 25px;
+  }
+
+  .hero_main_text {
+    width: 90%;
+    top: 35%;
+  }
+  .hero_main_text p {
+    font-size: 14px;
+  }
+
+  .hero_icon {
+    top: 65%;
+    left: 80%;
+    font-size: 16px;
+    display: flex;
+  }
+}

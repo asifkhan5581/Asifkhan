@@ -1,0 +1,107 @@
+.main_testimonial {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  background: linear-gradient(to right, rgb(42, 42, 42) 60%, transparent 50%);
+  background-color: transparent;
+}
+.main_testimonial h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  border-bottom: 5px solid rgb(120, 0, 0);
+  padding: 20px 0px;
+  border-radius: 5px;
+  text-shadow: 2px 2px 2px rgb(122, 0, 0);
+  margin-bottom: 10px;
+}
+.main_head img {
+  width: 100px;
+  border-radius: 50%;
+}
+.main_head {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.main_head h3 {
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+.main_head p {
+  font-style: italic;
+  color: orange;
+}
+.main_text {
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  padding: 0px 30px;
+}
+.testIcon {
+  display: flex;
+
+  position: absolute;
+  right: 50px;
+  transform: translate(0px, -110px);
+}
+.leftIcon {
+  font-size: 40px;
+  color: white;
+  color: rgb(161, 0, 0);
+  box-shadow: 3px 3px 3px 1px gray;
+  margin: 10px;
+}
+
+.testimonial_card {
+  display: flex;
+}
+.card {
+  text-align: center;
+  margin: 0px;
+  margin-top: 10px;
+  background-color: rgb(13, 13, 13);
+  color: black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgb(46, 46, 46);
+  padding: 20px;
+}
+.card:hover {
+  background-color: rgb(114, 3, 3);
+  color: aliceblue;
+}
+.card h3:hover {
+  color: white;
+}
+.card {
+  cursor: pointer;
+  animation: slideIn 0.5s ease-out;
+  transition: transform 0.3s, border-radius 0.3s;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.card:hover {
+  transform: scale(1.1);
+  border-radius: 50%;
+}
+.dot {
+  height: 2px;
+  color: brown;
+  width: 40px;
+  background-color: brown;
+}
